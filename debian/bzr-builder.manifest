@@ -1,0 +1,3 @@
+# bzr-builder format 0.3 deb-version {debupstream}+r303~daily
+lp:~moka/mokaproject/debian-packaging-faba-icon-theme revid:hewittsamuel@gmail.com-20160421164403-xzeltj9pc9ork1yn
+nest icons lp:~moka/mokaproject/faba-icon-theme Faba revid:git-v1:c620e2a56962ffb96883359898140a147de89502
