@@ -3,10 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: David Mohammed <foss.freedom@gmail.com>
 Build-Depends: debhelper (>= 9),
-               python-scour,
-               python-rsvg,
-               python-cairo,
-               icon-naming-utils
+    dh-autoreconf
 Standards-Version: 3.9.7
 Homepage: https://github.com/moka-project/faba-icon-theme
 
@@ -17,5 +14,5 @@ Depends: ${misc:Depends},
          gnome-icon-theme,
          hicolor-icon-theme
 Replaces: faba-icon-theme-symbolic
-Description: Faba Icon Theme
+Description: Tango influenced icon theme called Faba
  Faba is a sexy and modern icon theme with Tango influences.
