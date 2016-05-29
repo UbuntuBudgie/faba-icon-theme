@@ -5,7 +5,7 @@ Source: https://github.com/moka-project/faba-icon-theme
 
 Files: *
 Copyright: 2016, Sam Hewitt <sam@snwh.org>
-License: GPL-3+ or CC-BY-SA-4.0
+License: LGPL-3.0 or CC-BY-SA-4.0
 
 Files: debian/*
 Copyright: 2016, Sam Hewitt <sam@snwh.org>,
@@ -33,3 +33,24 @@ License: CC-BY-SA-4.0
  This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License. 
  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/legalcode or send a letter 
  to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+ 
+License: LGPL-3.0
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU Lesser General Public
+ License version 3 as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 3 can be found in the file
+ `/usr/share/common-licenses/LGPL-3'.
+
