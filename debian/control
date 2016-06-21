@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9),
     dh-autoreconf
 Standards-Version: 3.9.8
 Vcs-Browser: https://github.com/budgie-remix/faba-icon-theme/tree/debian
-Vcs-Git: git://github.com/budgie-remix/faba-icon-theme -b debian
+Vcs-Git: https://github.com/budgie-remix/faba-icon-theme -b debian
 Homepage: https://snwh.org/moka
 
 
