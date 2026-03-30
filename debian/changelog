@@ -1,3 +1,23 @@
+faba-icon-theme (4.3-2) unstable; urgency=medium
+
+  * Packaging changes:
+    - d/control - switch from obsolete gnome-icon-theme to
+      elementary-xfce-icon-theme (Closes: #1117092)
+      Make the package a recommendation instead of a dependency
+    - Add inherits.patch for the above change - elementary-xfce meets
+      the original authors recommendation for the icon theme inheritance
+      Add suggests for adwaita-icon-theme for the gnome-icon-theme
+      replacement
+    - d/control - switch from debhelper to debhelper-compat (13)
+    - d/control - Bump StandardsVersion; no addition changes required
+    - d/copyright - bump copyright year
+    - d/copyright - use the complete CC-BY-SA-4.0 license text
+    - remove unneeded d/install - lets default to debhelper managing
+      the installation components
+
+
+ -- David Mohammed <fossfreedom@ubuntu.com>  Mon, 30 Mar 2026 18:15:11 +0100
+
 faba-icon-theme (4.3-1) unstable; urgency=medium
 
   * New upstream release

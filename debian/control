@@ -2,8 +2,8 @@ Source: faba-icon-theme
 Section: misc
 Priority: optional
 Maintainer: David Mohammed <fossfreedom@ubuntu.com>
-Build-Depends: debhelper (>= 11), meson
-Standards-Version: 4.2.1
+Build-Depends: debhelper-compat (= 13), meson
+Standards-Version: 4.3.0
 Vcs-Browser: https://github.com/ubuntubudgie/faba-icon-theme/tree/debian
 Vcs-Git: https://github.com/ubuntubudgie/faba-icon-theme -b debian
 Homepage: https://snwh.org/moka
@@ -12,9 +12,10 @@ Homepage: https://snwh.org/moka
 Package: faba-icon-theme
 Architecture: all
 Depends: ${misc:Depends},
-         gnome-icon-theme,
          hicolor-icon-theme
+Recommends: elementary-xfce-icon-theme
 Replaces: faba-icon-theme-symbolic
+Suggests: adwaita-icon-theme
 Description: Tango influenced icon theme called Faba
  Faba is was designed with simplicity and compliance to icon standards
  in mind. Its purpose is to serve as a base icon theme to other themes
